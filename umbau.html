@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UMBAU | Mármol, granito, cuarzo, porcelanato y acabados · Grupo Materializa</title>
+<meta name="description" content="UMBAU, materiales y acabados del Grupo Materializa: mármol, granito, cuarzo, porcelanato, maderas, recubrimientos y mobiliario para cocina y baño.">
+<link rel="canonical" href="https://materializamexico.com/umbau">
+<meta property="og:title" content="UMBAU | Mármol, granito, cuarzo, porcelanato y acabados · Grupo Materializa">
+<meta property="og:description" content="UMBAU, materiales y acabados del Grupo Materializa: mármol, granito, cuarzo, porcelanato, maderas, recubrimientos y mobiliario para cocina y baño.">
+<meta property="og:url" content="https://materializamexico.com/umbau">
+<meta property="og:locale" content="es_MX">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,400&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --terra:#C4502A;--terra-d:#8A3015;--terra-l:#E07B52;--terra-bg:#FBF4F0;
+  --charcoal:#2B2B28;--charcoal2:#3A3A36;
+  --paper:#FBF7F4;--paper2:#F4E8E1;--border:#E5D5CC;
+  --ink:#211915;--ink2:#3D2E26;--ink3:#6E5A4F;--white:#FFFDFB;
+  --ok:#3B6D11;--ok-bg:#EAF3DE;--r:6px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'Barlow',sans-serif;background:var(--white);color:var(--ink);line-height:1.55;overflow-x:hidden}
+::selection{background:var(--terra);color:var(--white)}
+.mono{font-family:'Courier Prime',monospace}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:100;background:rgba(43,43,40,.97);backdrop-filter:blur(14px);padding:0 2.5rem;display:flex;align-items:center;justify-content:space-between;height:66px;border-bottom:1px solid rgba(196,80,42,.25)}
+.nav-l{display:flex;align-items:center;gap:1.4rem}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+.brand-name{font-family:'Courier Prime',monospace;font-size:1.3rem;font-weight:700;letter-spacing:4px;color:var(--paper)}
+.brand-sub{font-size:.5rem;letter-spacing:.2em;text-transform:uppercase;color:var(--terra-l);margin-top:2px;font-family:'Courier Prime',monospace}
+.back-link{font-size:.72rem;font-weight:500;color:rgba(251,244,240,.5);text-decoration:none;display:flex;align-items:center;gap:.4rem;padding-left:1.4rem;border-left:1px solid rgba(251,244,240,.15);transition:color .2s}
+.back-link:hover{color:var(--terra-l)}
+.nav-links{display:flex;gap:.3rem;list-style:none}
+.nav-links a{font-size:.76rem;font-weight:500;color:rgba(251,244,240,.6);text-decoration:none;padding:.5rem .85rem;border-radius:var(--r);transition:all .2s;cursor:pointer}
+.nav-links a:hover{color:var(--terra-l);background:rgba(196,80,42,.12)}
+.nav-cart{position:relative;background:var(--terra);color:var(--white);border:none;padding:.55rem 1.1rem;border-radius:var(--r);cursor:pointer;font-weight:700;font-size:.76rem;display:flex;align-items:center;gap:.5rem;transition:background .2s;font-family:'Barlow',sans-serif}
+.nav-cart:hover{background:var(--terra-l)}
+.cart-count{background:var(--white);color:var(--terra-d);border-radius:50%;width:18px;height:18px;display:flex;align-items:center;justify-content:center;font-size:.66rem;font-weight:800}
+
+/* HERO */
+#hero{background:var(--charcoal);color:var(--paper);position:relative;overflow:hidden;padding:4rem 2.5rem 3.5rem}
+.hero-grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(196,80,42,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(196,80,42,.05) 1px,transparent 1px);background-size:44px 44px;pointer-events:none}
+.hero-deco{position:absolute;top:-25%;right:-8%;width:560px;height:560px;background:radial-gradient(circle,rgba(196,80,42,.14),transparent 60%);pointer-events:none}
+.hero-in{max-width:1100px;margin:0 auto;position:relative;z-index:2}
+.hero-tag{display:inline-flex;align-items:center;gap:.6rem;font-family:'Courier Prime',monospace;font-size:.68rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--terra-l);margin-bottom:1.5rem;border:1px solid rgba(196,80,42,.3);padding:.4rem 1rem;border-radius:4px}
+.hero h1{font-family:'Fraunces',serif;font-size:clamp(2.6rem,5.5vw,4.6rem);font-weight:300;line-height:1.02;letter-spacing:-.02em;margin-bottom:1.3rem;max-width:900px}
+.hero h1 b{font-weight:400;font-style:italic;color:var(--terra-l)}
+.hero-desc{font-size:1.1rem;color:rgba(251,244,240,.68);max-width:560px;font-weight:300;line-height:1.6;margin-bottom:2.2rem}
+.hero-actions{display:flex;gap:.9rem;flex-wrap:wrap}
+.btn-terra{font-size:.84rem;font-weight:700;color:var(--white);background:var(--terra);border:none;padding:.95rem 1.8rem;border-radius:var(--r);cursor:pointer;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:.6rem}
+.btn-terra:hover{background:var(--terra-l);gap:.85rem}
+.btn-ghost-l{font-size:.84rem;font-weight:600;color:var(--paper);background:none;border:1.5px solid rgba(251,244,240,.3);padding:.95rem 1.8rem;border-radius:var(--r);cursor:pointer;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:.5rem}
+.btn-ghost-l:hover{border-color:var(--terra-l);color:var(--terra-l)}
+
+/* SECTION */
+.section{max-width:1100px;margin:0 auto;padding:4.5rem 2.5rem}
+.eyebrow{display:inline-flex;align-items:center;gap:.6rem;font-family:'Courier Prime',monospace;font-size:.7rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--terra-d);margin-bottom:1rem}
+.eyebrow::before{content:'//';color:var(--terra)}
+.s-title{font-family:'Fraunces',serif;font-size:clamp(1.9rem,3.4vw,2.8rem);font-weight:300;letter-spacing:-.02em;color:var(--ink);line-height:1.1}
+.s-title b{font-style:italic;color:var(--terra-d)}
+.s-sub{font-size:1rem;color:var(--ink3);margin-top:.7rem;max-width:560px;line-height:1.6}
+
+/* CATALOGO MATERIALES */
+#materiales{background:var(--paper)}
+.mat-tabs{display:flex;gap:.5rem;margin:2rem 0 2.2rem;flex-wrap:wrap}
+.mat-tab{font-family:'Courier Prime',monospace;font-size:.78rem;font-weight:700;color:var(--ink3);background:var(--white);border:1.5px solid var(--border);padding:.6rem 1.2rem;border-radius:30px;cursor:pointer;transition:all .2s;letter-spacing:.04em}
+.mat-tab:hover{border-color:var(--terra)}
+.mat-tab.on{background:var(--charcoal);color:var(--terra-l);border-color:var(--charcoal)}
+.mat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem}
+.mat{background:var(--white);border:1px solid var(--border);border-radius:12px;overflow:hidden;transition:all .3s cubic-bezier(.16,1,.3,1);cursor:pointer}
+.mat:hover{transform:translateY(-4px);box-shadow:0 18px 40px -20px rgba(43,43,40,.3);border-color:var(--terra)}
+.mat-swatch{height:130px;position:relative;overflow:hidden}
+.mat-swatch::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.15),transparent 50%,rgba(0,0,0,.1))}
+.mat-code{position:absolute;top:.6rem;left:.6rem;font-family:'Courier Prime',monospace;font-size:.6rem;font-weight:700;color:var(--white);background:rgba(43,43,40,.6);backdrop-filter:blur(6px);padding:.2rem .5rem;border-radius:4px;z-index:2;letter-spacing:.05em}
+.mat-info{padding:1rem 1.1rem}
+.mat-name{font-size:.95rem;font-weight:700;color:var(--ink);margin-bottom:.2rem}
+.mat-fam{font-family:'Courier Prime',monospace;font-size:.66rem;color:var(--terra-d);text-transform:uppercase;letter-spacing:.06em}
+.mat-apps{font-size:.74rem;color:var(--ink3);margin-top:.5rem;line-height:1.4}
+.mat-cta{margin-top:.8rem;font-size:.74rem;font-weight:700;color:var(--terra-d);display:flex;align-items:center;gap:.3rem}
+
+/* TIENDA PRODUCTOS */
+#tienda{background:var(--white)}
+.prod-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2.2rem}
+.prod{background:var(--white);border:1px solid var(--border);border-radius:14px;overflow:hidden;transition:all .3s cubic-bezier(.16,1,.3,1)}
+.prod:hover{transform:translateY(-4px);box-shadow:0 20px 44px -22px rgba(43,43,40,.35)}
+.prod-img{height:220px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.prod-img::after{content:'';position:absolute;inset:0;background:linear-gradient(160deg,rgba(255,255,255,.18),transparent 55%,rgba(0,0,0,.12))}
+.prod-badge{position:absolute;top:.8rem;right:.8rem;font-family:'Courier Prime',monospace;font-size:.6rem;font-weight:700;color:var(--white);background:var(--terra);padding:.25rem .6rem;border-radius:4px;z-index:2;letter-spacing:.05em}
+.prod-info{padding:1.3rem 1.4rem}
+.prod-cat{font-family:'Courier Prime',monospace;font-size:.64rem;color:var(--terra-d);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.3rem}
+.prod-name{font-size:1.1rem;font-weight:700;color:var(--ink);line-height:1.2;margin-bottom:.4rem}
+.prod-desc{font-size:.82rem;color:var(--ink3);line-height:1.5;margin-bottom:1rem}
+.prod-foot{display:flex;align-items:center;justify-content:space-between;gap:.8rem}
+.prod-price{font-family:'Fraunces',serif;font-size:1.5rem;font-weight:400;color:var(--ink)}
+.prod-price small{font-size:.7rem;color:var(--ink3);font-family:'Barlow',sans-serif}
+.prod-add{background:var(--charcoal);color:var(--white);border:none;width:42px;height:42px;border-radius:10px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0}
+.prod-add:hover{background:var(--terra)}
+
+/* APLICACIONES */
+#aplicaciones{background:var(--charcoal);color:var(--paper)}
+.app-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(251,244,240,.1);border-radius:14px;overflow:hidden;margin-top:2.2rem}
+.app{background:var(--charcoal);padding:2rem 1.6rem;transition:background .3s;position:relative}
+.app::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--terra);transform:scaleX(0);transform-origin:left;transition:transform .4s}
+.app:hover{background:var(--charcoal2)}
+.app:hover::before{transform:scaleX(1)}
+.app-ico{color:var(--terra-l);margin-bottom:1rem}
+.app-n{font-size:1.05rem;font-weight:700;color:var(--white);margin-bottom:.4rem}
+.app-d{font-size:.84rem;color:rgba(251,244,240,.55);line-height:1.6}
+
+/* CTA PROYECTO */
+#proyecto{background:var(--terra-bg)}
+.proj-box{background:var(--white);border:1px solid var(--border);border-radius:18px;padding:3rem;text-align:center;max-width:680px;margin:0 auto}
+.proj-box .s-title{margin-bottom:.8rem}
+
+/* DRAWER CARRITO */
+#drawer{position:fixed;top:0;right:0;bottom:0;width:400px;max-width:90vw;background:var(--white);box-shadow:-10px 0 40px rgba(0,0,0,.2);z-index:9500;transform:translateX(100%);transition:transform .35s cubic-bezier(.16,1,.3,1);display:flex;flex-direction:column}
+#drawer.open{transform:translateX(0)}
+.drawer-h{padding:1.6rem 1.8rem;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.drawer-t{font-family:'Fraunces',serif;font-size:1.4rem;font-weight:400}
+.drawer-x{background:var(--paper2);border:none;width:34px;height:34px;border-radius:9px;cursor:pointer;font-size:1rem;color:var(--ink)}
+.drawer-body{flex:1;overflow-y:auto;padding:1.5rem 1.8rem}
+.drawer-empty{text-align:center;color:var(--ink3);padding:3rem 1rem;font-size:.9rem}
+.cart-item{display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--border)}
+.cart-item-sw{width:54px;height:54px;border-radius:8px;flex-shrink:0}
+.cart-item-info{flex:1}
+.cart-item-n{font-size:.88rem;font-weight:700;line-height:1.2}
+.cart-item-p{font-family:'Fraunces',serif;font-size:1rem;color:var(--terra-d);margin-top:.2rem}
+.cart-item-rm{background:none;border:none;color:var(--ink3);font-size:.72rem;cursor:pointer;text-decoration:underline;margin-top:.3rem;padding:0}
+.drawer-f{padding:1.6rem 1.8rem;border-top:1px solid var(--border)}
+.drawer-total{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1.2rem}
+.drawer-total-l{font-size:.85rem;color:var(--ink3)}
+.drawer-total-v{font-family:'Fraunces',serif;font-size:1.8rem;color:var(--ink)}
+.drawer-cta{width:100%;background:var(--terra);color:var(--white);border:none;padding:1rem;border-radius:var(--r);font-weight:700;font-size:.88rem;cursor:pointer;transition:background .2s;font-family:'Barlow',sans-serif}
+.drawer-cta:hover{background:var(--terra-d)}
+.drawer-note{font-size:.68rem;color:var(--ink3);text-align:center;margin-top:.8rem;line-height:1.5}
+#overlay{position:fixed;inset:0;background:rgba(33,25,21,.5);backdrop-filter:blur(3px);z-index:9400;opacity:0;pointer-events:none;transition:opacity .3s}
+#overlay.open{opacity:1;pointer-events:auto}
+
+/* MODAL COTIZA */
+#quoteModal{display:none;position:fixed;inset:0;background:rgba(33,25,21,.78);backdrop-filter:blur(8px);z-index:9600;align-items:flex-start;justify-content:center;padding:2rem;overflow-y:auto}
+#quoteModal.open{display:flex}
+.qm-card{background:var(--white);border-radius:18px;width:100%;max-width:500px;margin:auto;overflow:hidden}
+.qm-head{background:var(--charcoal);color:var(--paper);padding:1.6rem 2rem;position:relative}
+.qm-tag{font-family:'Courier Prime',monospace;font-size:.64rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--terra-l);margin-bottom:.4rem}
+.qm-t{font-family:'Fraunces',serif;font-size:1.5rem;font-weight:400}
+.qm-x{position:absolute;top:1.3rem;right:1.3rem;width:32px;height:32px;border-radius:8px;background:rgba(251,244,240,.12);border:none;color:var(--paper);cursor:pointer;font-size:1rem}
+.qm-body{padding:2rem}
+.fg{margin-bottom:1.1rem}
+.fg label{font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);display:block;margin-bottom:.45rem}
+.fg input,.fg select,.fg textarea{width:100%;background:var(--paper);border:1.5px solid var(--border);color:var(--ink);font-family:'Barlow',sans-serif;font-size:.95rem;padding:.8rem 1rem;outline:none;border-radius:var(--r);transition:border-color .2s;appearance:none}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--terra)}
+.fg select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236E5A4F' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 1rem center;padding-right:2.5rem}
+.fg textarea{resize:vertical;min-height:70px}
+.fg-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.qm-submit{width:100%;background:var(--charcoal);color:var(--white);border:none;padding:1rem;border-radius:var(--r);font-weight:700;font-size:.88rem;cursor:pointer;transition:background .2s;font-family:'Barlow',sans-serif;display:flex;align-items:center;justify-content:center;gap:.5rem}
+.qm-submit:hover{background:var(--terra-d)}
+.qm-note{font-size:.68rem;color:var(--ink3);text-align:center;margin-top:.8rem}
+.qm-ok{display:none;text-align:center;padding:1rem 0}
+.qm-ok.show{display:block}
+.qm-ok-ico{width:60px;height:60px;border-radius:50%;background:var(--ok-bg);display:flex;align-items:center;justify-content:center;margin:0 auto 1rem}
+.qm-ok-t{font-family:'Fraunces',serif;font-size:1.5rem;margin-bottom:.4rem}
+.qm-ok-d{font-size:.9rem;color:var(--ink3);line-height:1.6}
+
+/* FOOTER */
+footer{background:var(--charcoal);color:var(--paper);padding:3rem 2.5rem 2rem}
+.foot-in{max-width:1100px;margin:0 auto;display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:2rem}
+.foot-brand-n{font-family:'Courier Prime',monospace;font-size:1.2rem;font-weight:700;letter-spacing:3px;color:var(--paper)}
+.foot-brand-s{font-size:.56rem;letter-spacing:.18em;text-transform:uppercase;color:var(--terra-l);margin-top:3px;font-family:'Courier Prime',monospace}
+.foot-brand-d{font-size:.82rem;color:rgba(251,244,240,.5);margin-top:.8rem;max-width:280px;line-height:1.6}
+.foot-links{display:flex;gap:3rem;flex-wrap:wrap}
+.foot-col-t{font-size:.64rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(251,244,240,.4);margin-bottom:.9rem;font-family:'Courier Prime',monospace}
+.foot-col a{display:block;font-size:.84rem;color:rgba(251,244,240,.6);text-decoration:none;margin-bottom:.5rem;transition:color .2s;cursor:pointer}
+.foot-col a:hover{color:var(--terra-l)}
+.foot-bottom{max-width:1100px;margin:2.5rem auto 0;padding-top:1.6rem;border-top:1px solid rgba(251,244,240,.1);font-size:.72rem;color:rgba(251,244,240,.35)}
+
+@media(max-width:900px){
+  .mat-grid{grid-template-columns:1fr 1fr}
+  .prod-grid,.app-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:680px){
+  nav{padding:0 1.2rem}.nav-links,.back-link{display:none}
+  #hero,.section{padding-left:1.2rem;padding-right:1.2rem}
+  .mat-grid,.prod-grid,.app-grid{grid-template-columns:1fr}
+  .fg-row{grid-template-columns:1fr}
+  .foot-in{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-l">
+    <a href="#hero" class="brand">
+      <svg width="28" height="28" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="14" height="90" fill="#FBF4F0"/><rect x="76" y="0" width="14" height="90" fill="#FBF4F0"/>
+        <rect x="0" y="76" width="90" height="14" fill="#FBF4F0"/>
+        <rect x="38" y="34" width="14" height="14" fill="#C4502A"/>
+      </svg>
+      <div><div class="brand-name">UMBAU</div><div class="brand-sub">Materiales</div></div>
+    </a>
+    <a href="/" class="back-link">
+      <svg width="13" height="13" fill="none" viewBox="0 0 16 16"><path d="M13 8H3M7 4L3 8l4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Materializa
+    </a>
+  </div>
+  <ul class="nav-links">
+    <li><a onclick="scrollTo2('materiales')">Materiales</a></li>
+    <li><a onclick="scrollTo2('tienda')">Tienda</a></li>
+    <li><a onclick="scrollTo2('aplicaciones')">Aplicaciones</a></li>
+    <li><a onclick="scrollTo2('proyecto')">Cotiza tu proyecto</a></li>
+  </ul>
+  <button class="nav-cart" onclick="openCart()">
+    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.3 2.3C4.1 15.9 4.5 17 5.4 17H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+    <span>Carrito</span><span class="cart-count" id="cartCount">0</span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-deco"></div>
+  <div class="hero-in">
+    <div class="hero-tag">Recubrimientos premium · Grupo Materializa</div>
+    <h1>La materia prima de<br><b>lo bien construido</b></h1>
+    <p class="hero-desc">Mármol, granito, cuarzo, porcelanato y maderas para cada superficie de tu proyecto. Material por proyecto y piezas terminadas de diseño. Precisión de ingeniería en cada pieza.</p>
+    <div class="hero-actions">
+      <a class="btn-terra" onclick="scrollTo2('materiales')"><span>Ver catálogo</span><svg width="14" height="14" fill="none" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a class="btn-ghost-l" onclick="scrollTo2('tienda')"><span>Tienda de productos</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- MATERIALES -->
+<section id="materiales" style="padding:0">
+  <div class="section">
+    <div class="eyebrow">Catálogo de materiales</div>
+    <h2 class="s-title">Material por <b>proyecto</b></h2>
+    <p class="s-sub">Cotización a medida según tipo, espesor, acabado e instalación. Filtra por familia.</p>
+    <div class="mat-tabs" id="matTabs"></div>
+    <div class="mat-grid" id="matGrid"></div>
+  </div>
+</section>
+
+<!-- TIENDA -->
+<section id="tienda" style="padding:0">
+  <div class="section">
+    <div class="eyebrow">Tienda · Productos terminados</div>
+    <h2 class="s-title">Piezas de <b>diseño</b>, listas para ti</h2>
+    <p class="s-sub">Mesas, vanities y objetos en piedra natural. Precio directo, compra inmediata.</p>
+    <div class="prod-grid" id="prodGrid"></div>
+  </div>
+</section>
+
+<!-- APLICACIONES -->
+<section id="aplicaciones" style="padding:0">
+  <div class="section">
+    <div class="eyebrow" style="color:var(--terra-l)">Aplicaciones</div>
+    <h2 class="s-title" style="color:var(--white)">Para cada <b style="color:var(--terra-l)">superficie</b></h2>
+    <div class="app-grid">
+      <div class="app"><div class="app-ico"><svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path d="M3 9h18M3 9v10a1 1 0 001 1h16a1 1 0 001-1V9M3 9l2-5h14l2 5M8 14h8"/></svg></div><div class="app-n">Cubiertas de cocina</div><div class="app-d">Mármol, granito y cuarzo cortados a medida. Resistencia y diseño para el corazón del hogar.</div></div>
+      <div class="app"><div class="app-ico"><svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v6H4zM6 10v10M18 10v10M4 14h16"/></svg></div><div class="app-n">Vanities de baño</div><div class="app-d">Lavabos y cubiertas de piedra que convierten el baño en una pieza de diseño.</div></div>
+      <div class="app"><div class="app-ico"><svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path d="M3 3h18v18H3zM3 9h18M9 9v12"/></svg></div><div class="app-n">Closets y carpintería</div><div class="app-d">Melaminas, maderas y laminados para closets, vestidores y muebles a medida.</div></div>
+      <div class="app"><div class="app-ico"><svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path d="M4 20h16M4 20V8l8-4 8 4v12M9 20v-6h6v6"/></svg></div><div class="app-n">Pisos y muros</div><div class="app-d">Porcelanato de gran formato, recintos y canteras para pisos, muros y fachadas.</div></div>
+      <div class="app"><div class="app-ico"><svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path d="M3 21h18M5 21V10l7-5 7 5v11M10 21v-5h4v5"/></svg></div><div class="app-n">Escaleras y barras</div><div class="app-d">Pisos de escalera, barras y desayunadores en piedra de una sola pieza.</div></div>
+      <div class="app"><div class="app-ico"><svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path d="M3 17l6-6 4 4 8-8M21 7v6M21 7h-6"/></svg></div><div class="app-n">Decks y exteriores</div><div class="app-d">Decks de madera y laminados para terrazas, jardines y áreas exteriores.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROYECTO -->
+<section id="proyecto" style="padding:0">
+  <div class="section">
+    <div class="proj-box">
+      <div class="eyebrow" style="justify-content:center">Proyecto a medida</div>
+      <h2 class="s-title">¿Tienes un <b>proyecto?</b></h2>
+      <p class="s-sub" style="margin:0 auto 1.8rem">Cuéntanos qué necesitas y te enviamos una cotización a la medida. Para arquitectos, constructoras y clientes finales.</p>
+      <a class="btn-terra" onclick="openQuote()" style="display:inline-flex"><span>Solicitar cotización</span><svg width="14" height="14" fill="none" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-in">
+    <div>
+      <div style="display:flex;align-items:center;gap:.7rem">
+        <svg width="24" height="24" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="14" height="90" fill="#FBF4F0"/><rect x="76" y="0" width="14" height="90" fill="#FBF4F0"/>
+          <rect x="0" y="76" width="90" height="14" fill="#FBF4F0"/><rect x="38" y="34" width="14" height="14" fill="#C4502A"/>
+        </svg>
+        <div><div class="foot-brand-n">UMBAU</div><div class="foot-brand-s">Materiales</div></div>
+      </div>
+      <p class="foot-brand-d">Recubrimientos y materiales premium. La materia prima de lo bien construido. Empresa del grupo Materializa.</p>
+    </div>
+    <div class="foot-links">
+      <div class="foot-col"><div class="foot-col-t">Catálogo</div><a onclick="scrollTo2('materiales')">Materiales</a><a onclick="scrollTo2('tienda')">Productos</a><a onclick="scrollTo2('aplicaciones')">Aplicaciones</a></div>
+      <div class="foot-col"><div class="foot-col-t">Comprar</div><a onclick="openQuote()">Cotizar proyecto</a><a onclick="openCart()">Mi carrito</a></div>
+      <div class="foot-col"><div class="foot-col-t">Grupo</div><a href="/">Materializa</a><a href="doma.html">DOMA</a></div>
+    </div>
+  </div>
+  <div class="foot-bottom">© 2026 UMBAU · Empresa del Grupo Materializa · materializamexico.com</div>
+</footer>
+
+<!-- OVERLAY + DRAWER -->
+<div id="overlay" onclick="closeCart()"></div>
+<div id="drawer">
+  <div class="drawer-h">
+    <div class="drawer-t">Tu carrito</div>
+    <button class="drawer-x" onclick="closeCart()">✕</button>
+  </div>
+  <div class="drawer-body" id="drawerBody"></div>
+  <div class="drawer-f" id="drawerFoot" style="display:none">
+    <div class="drawer-total"><span class="drawer-total-l">Total estimado</span><span class="drawer-total-v" id="cartTotal">$0</span></div>
+    <button class="drawer-cta" onclick="checkout()">Solicitar estos productos</button>
+    <p class="drawer-note">Te contactamos para confirmar disponibilidad, envío e instalación. El precio puede variar según personalización.</p>
+  </div>
+</div>
+
+<!-- MODAL COTIZA -->
+<div id="quoteModal">
+  <div class="qm-card">
+    <div class="qm-head">
+      <button class="qm-x" onclick="closeQuote()">✕</button>
+      <div class="qm-tag">Cotización a medida</div>
+      <div class="qm-t" id="qmTitle">Cuéntanos tu proyecto</div>
+    </div>
+    <div class="qm-body">
+      <form id="quoteForm" name="cotizacion-umbau" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="submitQuote(event)">
+        <input type="hidden" name="form-name" value="cotizacion-umbau">
+        <p style="display:none"><label>No llenar: <input name="bot-field"></label></p>
+        <div class="fg"><label>Nombre completo</label><input type="text" name="nombre" required placeholder="Tu nombre"></div>
+        <div class="fg-row">
+          <div class="fg"><label>Teléfono</label><input type="tel" name="telefono" required placeholder="55 0000 0000"></div>
+          <div class="fg"><label>Correo</label><input type="email" name="correo" required placeholder="correo@email.com"></div>
+        </div>
+        <div class="fg"><label>Soy</label>
+          <select name="perfil" required>
+            <option value="" disabled selected>Selecciona</option>
+            <option>Arquitecto / Diseñador</option>
+            <option>Constructora / Desarrollador</option>
+            <option>Cliente final</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="fg"><label>¿Qué material te interesa?</label>
+          <select name="material" required id="qmMaterial">
+            <option value="" disabled selected>Selecciona</option>
+            <option>Mármol</option><option>Granito</option><option>Cuarzo</option>
+            <option>Cantera / Recinto</option><option>Porcelanato</option>
+            <option>Madera / Melamina / Laminado</option><option>Varios / No estoy seguro</option>
+          </select>
+        </div>
+        <div class="fg"><label>Cuéntanos del proyecto (opcional)</label><textarea name="mensaje" placeholder="Ej. cubierta de cocina ~6 m², acabado pulido, zona Guadalajara"></textarea></div>
+        <button type="submit" class="qm-submit"><span>Enviar solicitud</span><svg width="14" height="14" fill="none" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <p class="qm-note">Te respondemos con una cotización en menos de 24 horas hábiles.</p>
+      </form>
+      <div class="qm-ok" id="qmOk">
+        <div class="qm-ok-ico"><svg width="30" height="30" fill="none" viewBox="0 0 24 24" stroke="var(--ok)" stroke-width="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+        <div class="qm-ok-t">¡Solicitud recibida!</div>
+        <div class="qm-ok-d">Un especialista de UMBAU revisará tu proyecto y te enviará una cotización a medida muy pronto.</div>
+        <button class="qm-submit" onclick="closeQuote()" style="margin-top:1.3rem;background:var(--terra-d)">Entendido</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ════ DATA ════
+const MATERIALS = [
+  {code:"MAR-01",name:"Mármol Calacatta",fam:"Piedra natural",cat:"marmol",apps:"Cubiertas · Vanities · Pisos",grad:"linear-gradient(135deg,#F5F3EF,#E8E4DC 40%,#D8D2C4 60%,#EDEAE3)"},
+  {code:"MAR-02",name:"Mármol Travertino",fam:"Piedra natural",cat:"marmol",apps:"Muros · Pisos · Fachadas",grad:"linear-gradient(135deg,#E8D9C3,#D4BFA0 50%,#C9B190)"},
+  {code:"GRA-01",name:"Granito Negro Absoluto",fam:"Piedra natural",cat:"granito",apps:"Cubiertas · Barras",grad:"linear-gradient(135deg,#3A3A38,#1E1E1C 50%,#2C2C2A)"},
+  {code:"GRA-02",name:"Granito San Gabriel",fam:"Piedra natural",cat:"granito",apps:"Cubiertas · Escaleras",grad:"linear-gradient(135deg,#8A7560,#6B5847 50%,#7D6B58)"},
+  {code:"CUA-01",name:"Cuarzo Blanco Cristal",fam:"Cerámicos",cat:"cuarzo",apps:"Cubiertas · Vanities",grad:"linear-gradient(135deg,#FCFCFA,#F0F0EC 50%,#E6E6E0)"},
+  {code:"CUA-02",name:"Cuarzo Gris Concreto",fam:"Cerámicos",cat:"cuarzo",apps:"Cubiertas · Barras",grad:"linear-gradient(135deg,#9A9A95,#7A7A75 50%,#8A8A85)"},
+  {code:"POR-01",name:"Porcelanato Mármol",fam:"Cerámicos",cat:"porcelanato",apps:"Pisos · Muros · Gran formato",grad:"linear-gradient(135deg,#F2EFEA,#E0DBD2 50%,#EDEAE3)"},
+  {code:"POR-02",name:"Porcelanato Cemento",fam:"Cerámicos",cat:"porcelanato",apps:"Pisos · Fachadas",grad:"linear-gradient(135deg,#B0ABA2,#928D84 50%,#A09B92)"},
+  {code:"CAN-01",name:"Cantera Rosa",fam:"Piedra natural",cat:"cantera",apps:"Fachadas · Muros · Columnas",grad:"linear-gradient(135deg,#D9A88E,#C08968 50%,#CE9A7C)"},
+  {code:"CAN-02",name:"Recinto Negro",fam:"Piedra natural",cat:"cantera",apps:"Pisos · Fachadas · Exteriores",grad:"linear-gradient(135deg,#48443E,#2E2A24 50%,#3A352E)"},
+  {code:"MAD-01",name:"Melamina Nogal",fam:"Maderas",cat:"madera",apps:"Closets · Muebles · Cocinas",grad:"linear-gradient(135deg,#9A6B45,#6E4A2E 50%,#825838)"},
+  {code:"MAD-02",name:"Deck Madera Tropical",fam:"Maderas",cat:"madera",apps:"Terrazas · Exteriores · Decks",grad:"linear-gradient(135deg,#B07848,#8A5A30 50%,#9E6A3C)"},
+];
+
+const PRODUCTS = [
+  {id:"P1",cat:"Mesa de comedor",name:"Mesa Arabescato",desc:"Mármol blanco con base de acero negro. 1.80 × 0.90 m, 6 personas.",price:42000,badge:"Hecho a mano",grad:"linear-gradient(135deg,#F5F3EF,#E2DED6 45%,#CFC9BC 70%,#EDEAE3)"},
+  {id:"P2",cat:"Mesa de centro",name:"Mesa Volakas",desc:"Mármol gris veteado con base escultórica. Pieza única de sala.",price:18500,badge:"Diseño",grad:"linear-gradient(135deg,#EDEBE6,#D6D1C8 50%,#C2BCB0)"},
+  {id:"P3",cat:"Mesa de comedor",name:"Mesa Ebony Cristal",desc:"Granito negro cristal pulido, base de acero. 2.00 × 1.00 m, 8 personas.",price:58000,badge:"Premium",grad:"linear-gradient(135deg,#3A3A38,#1A1A18 55%,#2C2C2A)"},
+  {id:"P4",cat:"Vanity",name:"Lavabo Travertino",desc:"Lavabo de baño tallado en una pieza de travertino. Incluye soporte.",price:14000,badge:"Baño",grad:"linear-gradient(135deg,#E8D9C3,#CFB596 50%,#C0A684)"},
+  {id:"P5",cat:"Objeto",name:"Charola Calacatta",desc:"Charola decorativa de mármol con vetas doradas. 40 × 30 cm.",price:2400,badge:"Objeto",grad:"linear-gradient(135deg,#F5F3EF,#E4DFD4 50%,#D2CCBE)"},
+  {id:"P6",cat:"Barra",name:"Barra Negro Absoluto",desc:"Barra / desayunador de granito negro absoluto. 2.40 × 0.60 m.",price:32000,badge:"Cocina",grad:"linear-gradient(135deg,#363634,#1A1A18 55%,#282826)"},
+];
+
+function fmt(n){return '$'+n.toLocaleString('es-MX')}
+
+// ════ MATERIALES ════
+let activeCat = 'all';
+const FAMILIES = [
+  {id:'all',label:'Todos'},{id:'marmol',label:'Mármol'},{id:'granito',label:'Granito'},
+  {id:'cuarzo',label:'Cuarzo'},{id:'porcelanato',label:'Porcelanato'},
+  {id:'cantera',label:'Cantera / Recinto'},{id:'madera',label:'Maderas'}
+];
+function renderTabs(){
+  document.getElementById('matTabs').innerHTML = FAMILIES.map(f =>
+    `<button class="mat-tab ${f.id===activeCat?'on':''}" onclick="setCat('${f.id}')">${f.label}</button>`).join('');
+}
+function setCat(c){activeCat=c;renderTabs();renderMaterials()}
+function renderMaterials(){
+  const list = activeCat==='all'?MATERIALS:MATERIALS.filter(m=>m.cat===activeCat);
+  document.getElementById('matGrid').innerHTML = list.map(m=>`
+    <div class="mat" onclick="openQuoteFor('${m.name}')">
+      <div class="mat-swatch" style="background:${m.grad}"><span class="mat-code">${m.code}</span></div>
+      <div class="mat-info">
+        <div class="mat-name">${m.name}</div>
+        <div class="mat-fam">${m.fam}</div>
+        <div class="mat-apps">${m.apps}</div>
+        <div class="mat-cta">Cotizar <svg width="12" height="12" fill="none" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </div>
+    </div>`).join('');
+}
+
+// ════ PRODUCTOS ════
+function renderProducts(){
+  document.getElementById('prodGrid').innerHTML = PRODUCTS.map(p=>`
+    <div class="prod">
+      <div class="prod-img" style="background:${p.grad}"><span class="prod-badge">${p.badge}</span></div>
+      <div class="prod-info">
+        <div class="prod-cat">${p.cat}</div>
+        <div class="prod-name">${p.name}</div>
+        <div class="prod-desc">${p.desc}</div>
+        <div class="prod-foot">
+          <div class="prod-price">${fmt(p.price)} <small>MXN</small></div>
+          <button class="prod-add" onclick="addToCart('${p.id}')" title="Agregar">
+            <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>`).join('');
+}
+
+// ════ CARRITO ════
+let cart = [];
+function addToCart(id){
+  const p = PRODUCTS.find(x=>x.id===id);
+  cart.push(p);
+  updateCart();
+  openCart();
+}
+function removeFromCart(i){cart.splice(i,1);updateCart()}
+function updateCart(){
+  document.getElementById('cartCount').textContent = cart.length;
+  const body = document.getElementById('drawerBody');
+  const foot = document.getElementById('drawerFoot');
+  if(cart.length===0){
+    body.innerHTML = '<div class="drawer-empty">Tu carrito está vacío.<br>Agrega productos de la tienda.</div>';
+    foot.style.display='none';
+    return;
+  }
+  body.innerHTML = cart.map((p,i)=>`
+    <div class="cart-item">
+      <div class="cart-item-sw" style="background:${p.grad}"></div>
+      <div class="cart-item-info">
+        <div class="cart-item-n">${p.name}</div>
+        <div class="cart-item-p">${fmt(p.price)}</div>
+        <button class="cart-item-rm" onclick="removeFromCart(${i})">Quitar</button>
+      </div>
+    </div>`).join('');
+  const total = cart.reduce((s,p)=>s+p.price,0);
+  document.getElementById('cartTotal').textContent = fmt(total);
+  foot.style.display='block';
+}
+function openCart(){document.getElementById('drawer').classList.add('open');document.getElementById('overlay').classList.add('open')}
+function closeCart(){document.getElementById('drawer').classList.remove('open');document.getElementById('overlay').classList.remove('open')}
+function checkout(){
+  closeCart();
+  openQuote();
+  document.getElementById('qmTitle').textContent = 'Confirma tu pedido';
+}
+
+// ════ COTIZA MODAL ════
+function openQuote(){document.getElementById('quoteModal').classList.add('open');document.body.style.overflow='hidden';document.getElementById('quoteForm').style.display='block';document.getElementById('qmOk').classList.remove('show')}
+function openQuoteFor(material){
+  openQuote();
+  document.getElementById('qmTitle').textContent = 'Cotizar '+material;
+  const sel = document.getElementById('qmMaterial');
+  for(let o of sel.options){ if(material.toLowerCase().includes(o.value.toLowerCase())){o.selected=true;break;} }
+}
+function closeQuote(){document.getElementById('quoteModal').classList.remove('open');document.body.style.overflow='';document.getElementById('qmTitle').textContent='Cuéntanos tu proyecto'}
+function submitQuote(e){
+  e.preventDefault();
+  const form=e.target;
+  fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(form)).toString()}).catch(()=>{}).finally(()=>{
+    document.getElementById('quoteForm').style.display='none';
+    document.getElementById('qmOk').classList.add('show');
+  });
+}
+document.getElementById('quoteModal').addEventListener('click',e=>{if(e.target.id==='quoteModal')closeQuote()});
+
+function scrollTo2(id){document.getElementById(id).scrollIntoView({behavior:'smooth'})}
+
+// init
+renderTabs();renderMaterials();renderProducts();updateCart();
+</script>
+</body>
+</html>
